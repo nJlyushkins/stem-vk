@@ -4,7 +4,7 @@ from vk_api.utils import get_random_id
 from vk_api import VkUpload
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 
-token="b38692f39ecaa16c600bcdb020ae4be656d11f411ba680e236c68f5fbf9a8bcb1363e024f00218809b46b"
+token="vk1.a.Zgnj954t_1qKEdEjBKPS3AU22gbmy0UzBWdcIjLXYD3GgUcoR0ol6WcBZKqAAtGmv3zF7aNeM2glziPw4hfzbitzGhpKOgNoR_UqK-NvBZEjuoipOZrAqHT8Wn8_-FgGsC5xm8OxMgKPeFpzKKco4YGVlcP835v2eWSFfSWUk1HxTDRnBAoqOclIZK4VSePaZpwgUCnkGI1Y1G31kLb7oA"
 
 # Клавиатура после курса
 keyboard_ater_cource = VkKeyboard(inline = True)
