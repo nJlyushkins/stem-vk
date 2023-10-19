@@ -27,9 +27,10 @@ keyboard_ater.add_button('Больше нет вопросов')
 
 # Клавиатура для связи с менеджером
 keyboard_contact_meneger = VkKeyboard(inline = True)
+keyboard_contact_meneger.add_button('Вернуться в основное меню', color = VkKeyboardColor.PRIMARY)
+keyboard_contact_meneger.add_line()
 keyboard_contact_meneger.add_button('Да, хочу связаться с менеджером',color = VkKeyboardColor.POSITIVE)
-keyboard_ater_cource.add_line()
-keyboard_ater_cource.add_button('Вернуться в основное меню')
+
 
 keyboard_user_meneger = VkKeyboard(one_time = True)
 keyboard_user_meneger.add_button('Спасибо, вы ответили на мой вопрос')
